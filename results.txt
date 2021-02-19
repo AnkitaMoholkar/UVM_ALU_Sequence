@@ -1,0 +1,223 @@
+                         Chronologic VCS (TM)
+            Version R-2020.12 -- Wed Feb 17 18:37:37 2021
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+The design hasn't changed and need not be recompiled. 
+If you really want to, delete file simv.daidir/.vcs.timestamp and
+run VCS again.
+
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12; Runtime version R-2020.12;  Feb 17 18:37 2021
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test alu_test...
+UVM_INFO test.sv(12) @ 0: uvm_test_top [alu_test] We are inside of test, and in the building phase
+UVM_INFO env.sv(14) @ 0: uvm_test_top.tree [alu_env] We are inside of env, and in the building phase
+UVM_INFO agent.sv(12) @ 0: uvm_test_top.tree.spy [alu_agent] We are inside of agent, and in the building phase
+UVM_INFO driver.sv(12) @ 0: uvm_test_top.tree.spy.car [alu_driver] We are inside of driver, and in the building phase
+UVM_INFO driver.sv(17) @ 0: uvm_test_top.tree.spy.car [alu_driver] We are inside of driver, and in the connection phase
+UVM_INFO agent.sv(19) @ 0: uvm_test_top.tree.spy [alu_agent] We are inside of agent, and in the connection phase
+UVM_INFO driver.sv(25) @ 0: uvm_test_top.tree.spy.car [alu_driver] We are inside of driver, and in the run phase
+printing the pattern data in driver here (EE273 HW2) :
+UVM_INFO test.sv(20) @ 0: uvm_test_top [alu_test] We are inside of test, and in the run phase
+my name is ankita, here the sequence will run
+Data inside driver is: a=264aea4b1 b=004cab opcode=1 ci=0 z=264aee81a co=0 
+Data inside driver is: a=c0f0482e8 b=1c1df8 opcode=1 ci=0 z=3f0f89f10 co=0 
+Data inside driver is: a=b37fdc950 b=07fce2 opcode=1 ci=1 z=b37fa35b2 co=0 
+Data inside driver is: a=ac06387e3 b=11dce4 opcode=1 ci=1 z=53f925b07 co=0 
+Data inside driver is: a=5f26a2676 b=03f983 opcode=1 ci=0 z=5f269dff5 co=0 
+Data inside driver is: a=3c66b4f95 b=10c82a opcode=1 ci=1 z=c399b87bf co=0 
+Data inside driver is: a=1dcf113dc b=0ad60b opcode=1 ci=1 z=1dcfbc5d7 co=0 
+Data inside driver is: a=64b940184 b=13009c opcode=1 ci=0 z=9b4670118 co=0 
+Data inside driver is: a=4df8c20ee b=12aa43 opcode=1 ci=0 z=b207e8aad co=0 
+Data inside driver is: a=9e4658a45 b=150414 opcode=1 ci=1 z=61b908e51 co=0 
+Data inside driver is: a=64fe8d115 b=1f8671 opcode=1 ci=1 z=9b0175764 co=0 
+Data inside driver is: a=8678dd547 b=120fa4 opcode=1 ci=0 z=7987fdae3 co=0 
+Data inside driver is: a=bab27db32 b=01cae9 opcode=1 ci=0 z=bab2611db co=0 
+Data inside driver is: a=c14b585e8 b=0b5fca opcode=1 ci=0 z=c14beda22 co=0 
+Data inside driver is: a=57b740243 b=046b2a opcode=1 ci=1 z=57b706969 co=0 
+Data inside driver is: a=31ada692a b=049b67 opcode=1 ci=1 z=31adef24d co=0 
+Data inside driver is: a=1233fa07d b=09b335 opcode=1 ci=1 z=123361348 co=0 
+Data inside driver is: a=5a94a6621 b=1f421c opcode=1 ci=1 z=a56b5243d co=0 
+Data inside driver is: a=12cde6be8 b=13e178 opcode=1 ci=0 z=ed32d8a90 co=0 
+Data inside driver is: a=7610149ab b=1974a9 opcode=1 ci=0 z=89ef83d02 co=0 
+Data inside driver is: a=4cdd9a26d b=1281ff opcode=1 ci=1 z=b322b2392 co=0 
+Data inside driver is: a=8a7842532 b=05c793 opcode=1 ci=0 z=8a781e2a1 co=0 
+Data inside driver is: a=292eee6ec b=03354f opcode=1 ci=0 z=292edd3a3 co=0 
+Data inside driver is: a=ecf86721d b=13464f opcode=1 ci=1 z=130753452 co=0 
+Data inside driver is: a=9181e915e b=14035f opcode=1 ci=0 z=6e7ea9201 co=0 
+Data inside driver is: a=b1c9164ed b=10e536 opcode=1 ci=1 z=4e36181db co=0 
+Data inside driver is: a=de0256158 b=00c3d9 opcode=1 ci=1 z=de025a281 co=0 
+Data inside driver is: a=6c30a5088 b=1eff1b opcode=1 ci=1 z=93cf4af93 co=0 
+Data inside driver is: a=3fd68219e b=1616d7 opcode=1 ci=0 z=c029e3749 co=0 
+Data inside driver is: a=e33a8547f b=164868 opcode=1 ci=0 z=1cc5e1c17 co=0 
+Data inside driver is: a=a493ca30a b=084912 opcode=1 ci=1 z=a4934ea18 co=0 
+Data inside driver is: a=11c1178a4 b=13a12f opcode=1 ci=1 z=ee3e2d98b co=0 
+Data inside driver is: a=5fc024773 b=09052f opcode=1 ci=0 z=5fc0b425c co=0 
+Data inside driver is: a=207deaec8 b=0e5140 opcode=1 ci=0 z=207d0ff88 co=0 
+Data inside driver is: a=30f1ca759 b=0c0735 opcode=1 ci=1 z=30f10a06c co=0 
+Data inside driver is: a=cbff30c3e b=1ca015 opcode=1 ci=1 z=3400fac2b co=0 
+Data inside driver is: a=8eff3b9de b=149e52 opcode=1 ci=1 z=71007278c co=0 
+Data inside driver is: a=3fc6fcc5e b=1a92bd opcode=1 ci=1 z=c03955ee3 co=0 
+Data inside driver is: a=d664e91a1 b=1cf289 opcode=1 ci=1 z=299b26328 co=0 
+Data inside driver is: a=4eb05e475 b=0f872e opcode=1 ci=1 z=4eb0a635b co=0 
+Data inside driver is: a=b9959e104 b=01d0e3 opcode=1 ci=0 z=b995831e7 co=0 
+Data inside driver is: a=ca1999940 b=077a12 opcode=1 ci=0 z=ca19ee352 co=0 
+Data inside driver is: a=6af9cb1b6 b=119f17 opcode=1 ci=1 z=9506d2ea1 co=0 
+Data inside driver is: a=d7e803bc8 b=035811 opcode=1 ci=0 z=d7e8363d9 co=0 
+Data inside driver is: a=a03326941 b=181b7c opcode=1 ci=1 z=5fcca723d co=0 
+Data inside driver is: a=964204579 b=01ff25 opcode=1 ci=0 z=96421ba5c co=0 
+Data inside driver is: a=5522c3ebd b=0496c8 opcode=1 ci=1 z=55228a875 co=0 
+Data inside driver is: a=5aaa8c576 b=04f4d7 opcode=1 ci=1 z=5aaac31a1 co=0 
+Data inside driver is: a=9ded4c4dc b=01f387 opcode=1 ci=0 z=9ded5375b co=0 
+Data inside driver is: a=430964f18 b=0feef4 opcode=1 ci=1 z=43099a1ec co=0 
+Data inside driver is: a=60c35cd9d b=05ac86 opcode=1 ci=0 z=60c30611b co=0 
+Data inside driver is: a=d65adf149 b=0cd61c opcode=1 ci=0 z=d65a12755 co=0 
+Data inside driver is: a=2d740f26a b=0be142 opcode=1 ci=1 z=2d74b1328 co=0 
+Data inside driver is: a=6bdcfb011 b=0f09a9 opcode=1 ci=0 z=6bdc0b9b8 co=0 
+Data inside driver is: a=7b016df08 b=0fa233 opcode=1 ci=0 z=7b0197d3b co=0 
+Data inside driver is: a=0fd4a8df7 b=02bf7f opcode=1 ci=0 z=0fd483288 co=0 
+Data inside driver is: a=9233a6032 b=09f396 opcode=1 ci=1 z=9233393a4 co=0 
+Data inside driver is: a=eff078c30 b=030d99 opcode=1 ci=0 z=eff0481a9 co=0 
+Data inside driver is: a=0d27cc37b b=108a34 opcode=1 ci=0 z=f2d8c494f co=0 
+Data inside driver is: a=0740a1e7f b=1d91f6 opcode=1 ci=0 z=f8bf78f89 co=0 
+Data inside driver is: a=792e1217a b=15c162 opcode=1 ci=1 z=86d14e018 co=0 
+Data inside driver is: a=eeb393c93 b=1aa93f opcode=1 ci=0 z=114c395ac co=0 
+Data inside driver is: a=4e4915180 b=12346f opcode=1 ci=1 z=b1b6365ef co=0 
+Data inside driver is: a=e374cd524 b=13a01f opcode=1 ci=1 z=1c8bf753b co=0 
+Data inside driver is: a=c2d4bdeaf b=154234 opcode=1 ci=1 z=3d2be9c9b co=0 
+Data inside driver is: a=3b4423b31 b=001375 opcode=1 ci=1 z=3b4422844 co=0 
+Data inside driver is: a=9ecc9b477 b=109211 opcode=1 ci=0 z=613392666 co=0 
+Data inside driver is: a=1fe0efa23 b=1ee839 opcode=1 ci=0 z=e01f0121a co=0 
+Data inside driver is: a=78386b579 b=11e432 opcode=1 ci=0 z=87c77514b co=0 
+Data inside driver is: a=a29715c29 b=1b224d opcode=1 ci=0 z=5d68a7e64 co=0 
+Data inside driver is: a=f14c2d09a b=09a361 opcode=1 ci=1 z=f14cb73fb co=0 
+Data inside driver is: a=902d2e88c b=00019d opcode=1 ci=1 z=902d2e911 co=0 
+Data inside driver is: a=8e8ad4a49 b=1334c2 opcode=1 ci=0 z=7175e7e8b co=0 
+Data inside driver is: a=f21c4b518 b=07a78a opcode=1 ci=0 z=f21c31292 co=0 
+Data inside driver is: a=e17f22860 b=10f8c5 opcode=1 ci=1 z=1e802d0a5 co=0 
+Data inside driver is: a=8d7421ba2 b=08529a opcode=1 ci=1 z=8d74a4938 co=0 
+Data inside driver is: a=07be91247 b=01d081 opcode=1 ci=0 z=07be8c2c6 co=0 
+Data inside driver is: a=74ed67611 b=121022 opcode=1 ci=1 z=8b1246633 co=0 
+Data inside driver is: a=d9b2cd557 b=0617dd opcode=1 ci=0 z=d9b2ac28a co=0 
+Data inside driver is: a=bb972218d b=151386 opcode=1 ci=0 z=44687320b co=0 
+Data inside driver is: a=95202018b b=1b8473 opcode=1 ci=1 z=6adf985f8 co=0 
+Data inside driver is: a=0e3210ecf b=144be8 opcode=1 ci=1 z=f1cd54527 co=0 
+Data inside driver is: a=6b9da299a b=00922a opcode=1 ci=1 z=6b9dabbb0 co=0 
+Data inside driver is: a=29a06679d b=0f2093 opcode=1 ci=0 z=29a09470e co=0 
+Data inside driver is: a=dee9cfe1f b=0e0bac opcode=1 ci=0 z=dee92f5b3 co=0 
+Data inside driver is: a=b6822aa18 b=1f2d06 opcode=1 ci=1 z=497dd871e co=0 
+Data inside driver is: a=4450d065d b=0e391f opcode=1 ci=0 z=445033f42 co=0 
+Data inside driver is: a=408ea3091 b=1c631a opcode=1 ci=0 z=bf716538b co=0 
+Data inside driver is: a=e67c9e808 b=0b2d60 opcode=1 ci=0 z=e67c2c568 co=0 
+Data inside driver is: a=fc8406576 b=0d5ae3 opcode=1 ci=0 z=fc84d3f95 co=0 
+Data inside driver is: a=969be23e8 b=164a54 opcode=1 ci=0 z=6964869bc co=0 
+Data inside driver is: a=2f0ddee70 b=0c1017 opcode=1 ci=0 z=2f0d1fe67 co=0 
+Data inside driver is: a=2895bd147 b=0d9ff4 opcode=1 ci=0 z=289564eb3 co=0 
+Data inside driver is: a=1e4f4a812 b=0e2094 opcode=1 ci=0 z=1e4fa8886 co=0 
+Data inside driver is: a=5f1ba100a b=056708 opcode=1 ci=1 z=5f1bf7702 co=0 
+Data inside driver is: a=c07209037 b=063768 opcode=1 ci=1 z=c0726a75f co=0 
+Data inside driver is: a=1db14e27c b=04a945 opcode=1 ci=1 z=1db104b39 co=0 
+Data inside driver is: a=9e0246f39 b=0a51aa opcode=1 ci=0 z=9e02e3e93 co=0 
+Data inside driver is: a=03ad60e5f b=0556b6 opcode=1 ci=1 z=03ad358e9 co=0 
+Data inside driver is: a=26326417d b=1411e4 opcode=1 ci=0 z=d9cd25099 co=0 
+Data inside driver is: a=4177cb13e b=1fa984 opcode=0 ci=0 z=4177c5ac2 co=0 
+Data inside driver is: a=f8a42802c b=0f6959 opcode=0 ci=0 z=f8a51e985 co=0 
+Data inside driver is: a=08f5a75dc b=18c3e4 opcode=1 ci=1 z=f70a2b638 co=0 
+Data inside driver is: a=20f1acbf7 b=07a78a opcode=1 ci=1 z=20f1d6c7d co=0 
+Data inside driver is: a=ff6f79628 b=093f76 opcode=1 ci=0 z=ff6fea95e co=0 
+Data inside driver is: a=a39170edb b=0bd2bc opcode=0 ci=1 z=a3922e197 co=0 
+Data inside driver is: a=437b6153a b=1fd311 opcode=1 ci=0 z=bc849c62b co=0 
+Data inside driver is: a=81724c8bb b=12a2dd opcode=0 ci=0 z=817176b98 co=0 
+Data inside driver is: a=742819afe b=1699ee opcode=1 ci=0 z=8bd770310 co=0 
+Data inside driver is: a=817627b4a b=1f87bc opcode=0 ci=1 z=817620306 co=0 
+Data inside driver is: a=18d4aabb4 b=1aea3f opcode=1 ci=1 z=e72b0418b co=0 
+Data inside driver is: a=3be2e8334 b=09783f opcode=0 ci=0 z=3be37fb73 co=0 
+Data inside driver is: a=bc0cda9b5 b=007692 opcode=1 ci=0 z=bc0cddf27 co=0 
+Data inside driver is: a=f3e6889e2 b=19b665 opcode=0 ci=0 z=f3e624047 co=0 
+Data inside driver is: a=ccb0605fd b=12ee8a opcode=1 ci=0 z=334f4eb77 co=0 
+Data inside driver is: a=5b6c334bb b=01be9b opcode=0 ci=1 z=5b6c4f356 co=0 
+Data inside driver is: a=23b9eb316 b=1322f2 opcode=0 ci=1 z=23b91d608 co=0 
+Data inside driver is: a=2d3c633fc b=177711 opcode=1 ci=1 z=d2c3144ed co=0 
+Data inside driver is: a=ca2f276d0 b=1bb234 opcode=1 ci=0 z=35d09c4e4 co=0 
+Data inside driver is: a=1530272f8 b=04a076 opcode=1 ci=1 z=15306d28e co=0 
+Data inside driver is: a=5aa383f7c b=17a9c7 opcode=0 ci=1 z=5aa2fe943 co=0 
+Data inside driver is: a=751e60472 b=0353d3 opcode=1 ci=1 z=751e557a1 co=0 
+Data inside driver is: a=0c2bb013d b=1096a1 opcode=1 ci=0 z=f3d4b979c co=0 
+Data inside driver is: a=d8f4343fe b=0feff1 opcode=1 ci=0 z=d8f4cac0f co=0 
+Data inside driver is: a=8faf1aa29 b=16abd9 opcode=0 ci=1 z=8fae85602 co=0 
+Data inside driver is: a=c5459a5fc b=1dc34e opcode=1 ci=0 z=3aba466b2 co=0 
+Data inside driver is: a=a92858f73 b=1d0b8e opcode=0 ci=0 z=a92829b01 co=0 
+Data inside driver is: a=098b4d17b b=020776 opcode=1 ci=0 z=098b6d60d co=0 
+Data inside driver is: a=6f64cfc2e b=0e3ceb opcode=1 ci=0 z=6f642c0c5 co=0 
+Data inside driver is: a=e8cb9ffaa b=1d3d6d opcode=1 ci=1 z=17344c2c7 co=0 
+Data inside driver is: a=e8a456ebe b=07afa9 opcode=1 ci=0 z=e8a42c117 co=0 
+Data inside driver is: a=551f44e73 b=175e0f opcode=0 ci=1 z=551ebac82 co=0 
+Data inside driver is: a=49007aeb2 b=107cd6 opcode=1 ci=0 z=b6ff7d264 co=0 
+Data inside driver is: a=94aa4be79 b=177609 opcode=1 ci=1 z=6b553c870 co=0 
+Data inside driver is: a=c22b7511e b=0db2af opcode=1 ci=0 z=c22bae3b1 co=0 
+Data inside driver is: a=65f719d71 b=029c6d opcode=0 ci=1 z=65f7439de co=0 
+Data inside driver is: a=8249dbb1a b=0459ea opcode=1 ci=1 z=82499e2f0 co=0 
+Data inside driver is: a=e5dd7fb36 b=14908c opcode=0 ci=0 z=e5dcc8bc2 co=0 
+Data inside driver is: a=afa15943a b=0df170 opcode=1 ci=1 z=afa18654a co=0 
+Data inside driver is: a=ca68bc32c b=026de7 opcode=1 ci=1 z=ca689aecb co=0 
+Data inside driver is: a=c10c0e93e b=16d35e opcode=0 ci=1 z=c10b7bc9c co=0 
+Data inside driver is: a=baad2feb6 b=070e91 opcode=1 ci=0 z=baad5f027 co=0 
+Data inside driver is: a=48ab338b7 b=1a908a opcode=0 ci=0 z=48aadc941 co=0 
+Data inside driver is: a=5a20e963d b=098107 opcode=0 ci=0 z=5a2181744 co=0 
+Data inside driver is: a=fa0e453bc b=025934 opcode=0 ci=0 z=fa0e6acf0 co=0 
+Data inside driver is: a=b3da606ff b=194104 opcode=1 ci=0 z=4c25f47fb co=0 
+Data inside driver is: a=3e69f7eed b=01099d opcode=1 ci=0 z=3e69e7770 co=0 
+Data inside driver is: a=0b3e6d79d b=0fc6a3 opcode=1 ci=1 z=0b3e9113e co=0 
+Data inside driver is: a=0ed42e070 b=1d6113 opcode=0 ci=1 z=0ed404183 co=0 
+Data inside driver is: a=074e4503e b=12e4d0 opcode=0 ci=0 z=074d7350e co=0 
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_objection.svh(1270) @ 154: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_report_server.svh(847) @ 154: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   11
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+[alu_agent]     2
+[alu_driver]     3
+[alu_env]     1
+[alu_test]     2
+
+$finish called from file "/home/morris/uvm-1.2/src/base/uvm_root.svh", line 517.
+$finish at simulation time                  154
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 154 ns
+CPU Time:      0.470 seconds;       Data structure size:   0.1Mb
+Wed Feb 17 18:37:37 2021
